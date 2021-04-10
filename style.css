@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: gray;
+    background-color: blue;
 }
 
 .slider {
