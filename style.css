@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+}
+
+.slider {
+    width: 80%;
+    height: 60%;
+    background-color: blue;
+    border-radius: 1rem;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+.action{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.next, .previous{
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:blue;
+    margin: 1rem;
+    cursor: pointer;
+}
+.next span, .previous span{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
